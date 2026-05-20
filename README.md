@@ -6,7 +6,7 @@ Scrolling informations for Recalbox 10 or later using 16x2 CLCD on Raspberry Pi.
 
 <https://fr.aliexpress.com/item/1005012115973038.html>
 
-![ ](http://i.imgur.com/CGAyTAlm.jpg)
+![ ](http://i.imgur.com/pFCToTv.jpeg)
 
 ## About
 

@@ -33,7 +33,7 @@ tournant sur raspberry, qui affichera diverses informations sur un écran lcd 16
 ## Environnement de développement
 
 * Raspberry Pi 2, Pi 3, Pi 5 
-* Recalbox 10.00.05 ou superieur (Avril 2026)
+* Recalbox 10.0.05 ou superieur (Avril 2026)
 * 16x2 I2C HD447800 LCD (A00)
 
 ## Installation

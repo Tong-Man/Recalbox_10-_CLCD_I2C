@@ -3,7 +3,8 @@ Connecter et Utilisez un petit afficheur LCD à Recalbox 10 (2026) / RPI
 Affiche des informations sur un écran LCD compact pour les version 10 ou + de Recalbox pour raspberry.
 
 ![ ](http://i.imgur.com/CGAyTAlm.jpg)
-![ ](https://i.imgur.com/a/fbpWsUw)
+![ ](https://imgur.com/a/fbpWsUw)
+
 # Lien
 
 <https://fr.aliexpress.com/item/1005012115973038.html>

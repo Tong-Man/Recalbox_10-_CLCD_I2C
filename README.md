@@ -2,6 +2,10 @@
 Connect and RUN a SMALL I2C Display to Recalbox 10 (2026) / RPI
 Scrolling informations for Recalbox 10 or later using 16x2 CLCD on Raspberry Pi.
 
+# Link
+
+<https://fr.aliexpress.com/item/1005012115973038.html>
+
 ![ ](http://i.imgur.com/CGAyTAlm.jpg)
 
 ## About

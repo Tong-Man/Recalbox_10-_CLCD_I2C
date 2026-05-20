@@ -2,12 +2,12 @@
 # coding=utf-8
 """
 recalbox_clcd.py
-Author       : Choum
-Creation DATE: 08/27/2017
+Author       : Tong_Man
+Creation DATE: 05/20/2026
 Blog        : https://forum.recalbox.com/topic/5777/relier-%C3%A0-un-%C3%A9cran-et-afficher-du-texte
 and original work : http://rasplay.org, http://forums.rasplay.org/, https://zzeromin.tumblr.com/
 
-Thanks to    : Godhunter74 for first draft of Recalbox script, zzeromin smyani, zerocool, GreatKStar
+Thanks to    : Godhunter74 for first draft of Recalbox script, zzeromin smyani, zerocool, GreatKStar and Choum
 
 Free and open for all to use. But put credit where credit is due.
 

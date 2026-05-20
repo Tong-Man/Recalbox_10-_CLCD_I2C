@@ -169,7 +169,6 @@ au lieu de
 ## Photos
 
 ![ ](http://i.imgur.com/Ae8HZpk.jpeg)
-![ ](http://i.imgur.com/Ae8HZpk.jpeg)
 ![ ](http://i.imgur.com/AkRSiZ1.jpeg)
 ![ ](http://i.imgur.com/EeoyBOd.jpeg)
 ![ ](http://i.imgur.com/28ETDhf.jpeg)

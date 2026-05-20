@@ -12,6 +12,7 @@ running on Raspberry Pi 2,3, which displays all necessary info on a 16x2 CLCD di
 
 ## Credits
 
+* Updated version of the recalbox 4.1 (10 years old) from Choum28 : <https://github.com/Choum28/Recalbox-Clcd>
 * Original version of the recalbox script from Godhunter74
 * Original project for retropie from zzeromin <https://github.com/zzeromin/RetroPie-Clcd>
 * Thanks to zzeromin smyani, zerocool, GreatKStar

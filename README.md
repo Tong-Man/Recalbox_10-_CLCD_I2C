@@ -33,7 +33,7 @@ running on Raspberry Pi 2,3, which displays all necessary info on a 16x2 CLCD di
 ## Development Environment
 
 * Raspberry Pi 2 or later
-* Recalbox 10.00.05 (April 2026)
+* Recalbox 10.0.05 (April 2026)
 * 16x2 I2C HD447800 LCD (A00)
 
 ## Prerequisites

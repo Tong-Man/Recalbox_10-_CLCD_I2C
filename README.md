@@ -165,5 +165,6 @@ instead of
 ## Screenshots
 
 ![ ](http://i.imgur.com/Ae8HZpk.jpeg)
-![ ](http://i.imgur.com/fsXfArEm.jpg)
-![ ](http://i.imgur.com/qesmRu6m.jpg)
+![ ](http://i.imgur.com/AkRSiZ1.jpeg)
+![ ](http://i.imgur.com/EeoyBOd.jpeg)
+![ ](http://i.imgur.com/28ETDhf.jpeg)

@@ -12,6 +12,7 @@ tournant sur raspberry, qui affichera diverses informations sur un écran lcd 16
 
 ## Remerciement
 
+* Projet mis à jour pour Recalbox 4.1 (10 ans d'age) par Choum28 <https://github.com/Choum28/Recalbox-Clcd>
 * Version originale du script recalbox par Godhunter74
 * Projet d'origine sur retropie par zzeromin <https://github.com/zzeromin/RetroPie-Clcd>
 * Merci à zzeromin smyani, zerocool, GreatKStar

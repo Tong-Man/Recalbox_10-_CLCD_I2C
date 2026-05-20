@@ -11,7 +11,7 @@ Scrolling informations for Recalbox 10 or later using 16x2 CLCD on Raspberry Pi.
 ## About
 
 Small script written in Python for Recalbox project <http://recalbox.com/>
-running on Raspberry Pi 2,3, which displays all necessary info on a 16x2 CLCD display.  
+running on Raspberry Pi 2,3,4,5 which displays all necessary info on a 16x2 CLCD display.  
 **You must scrape your rom to make this script work correctly when playing.**
 
 ## Credits

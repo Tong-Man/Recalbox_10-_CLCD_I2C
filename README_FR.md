@@ -4,6 +4,10 @@ Affiche des informations sur un écran LCD compact pour les version 10 ou + de R
 
 ![ ](http://i.imgur.com/CGAyTAlm.jpg)
 
+# Lien
+
+<https://fr.aliexpress.com/item/1005012115973038.html>
+
 ## A propos
 
 Script écrit en python pour le projet recalbox <http://recalbox.com>

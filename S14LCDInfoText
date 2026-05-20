@@ -1,0 +1,79 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides: recalbox_clcd.py & recalbox_clcd_off.py
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: I2C Lcd init script.
+# Description: Starts and stops service.
+### END INIT INFO
+
+#VAR
+RUN="/recalbox/scripts/clcd/recalbox_clcd.py"
+RUNSTOP="/recalbox/scripts/clcd/recalbox_clcd_off.py"
+BTD_PID=$(ps -eo pid,args | grep "/usr/bin/python $RUN" | grep -v grep | awk '{print $1}')
+
+serviceStatus() {
+   if [ ! -z "$BTD_PID" ]; then
+      echo -e "$0 [RUNNING] ['$BTD_PID']"
+   else
+      echo -e "$0 [NOT RUNNING]"
+   fi
+}
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+   start)
+      echo -e "Starting script $RUN ..."
+      if [ -z "$BTD_PID" ]; then
+         nice -n 19 $RUN&
+
+         if [ $? -eq 0 ]; then
+            echo -e "$0 [STARTED]"
+         fi
+      else
+         echo -e "$0 [ALREADY STARTED] ['$BTD_PID']!"
+      fi
+      #serviceStatus
+   ;;
+   stop)
+      if [ ! -z "$BTD_PID" ]; then
+         echo -e "Stopping script $RUN ..."
+         kill $BTD_PID
+         if [ $? -eq 0 ]; then
+            echo -e "$0 [STOPPED]"
+            nice -n 19 $RUNSTOP& 
+         fi
+      else
+         echo -e "$0 [NOT RUNNING]"
+      fi
+      #serviceStatus
+   ;;
+   status)
+      serviceStatus
+   ;;
+   restart)
+      echo -e "Restarting script $RUN ..."
+        if [ ! -z "$BTD_PID" ]; then
+           echo "Stopping script $RUN ..."
+           kill $BTD_PID
+           if [ $? -eq 0 ]; then
+              echo -e "Starting script $RUN ..."
+              nice -n 19 $RUN&
+              echo -e "$0 [RESTARTED]"
+           fi
+        else
+           echo -e "Script $RUN not running"
+           echo -e "Starting script $RUN ..."
+           nice -n 19 $RUN&
+           if [ $? -eq 0 ]; then
+              echo -e "$0 [RESTARTED]"
+           fi
+        fi
+   ;;
+   *)
+      echo -e "Usage: $0 {start | stop | restart | status}"
+      exit 1
+   ;;
+esac
+
+exit $?
